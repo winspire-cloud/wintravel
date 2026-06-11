@@ -27,14 +27,25 @@ npm install
 npm run dev
 ```
 
-## Connecting Supabase
+## Supabase
 
-1. Create a Supabase project (note: a new project on a paid org is ~$10/mo).
-2. Run the schema migration: paste `supabase/migrations/20260611000000_init.sql`
-   into the SQL editor (or `supabase db push` with the CLI).
-3. Seed the launch catalog: run `supabase/seed.sql` the same way.
-4. Copy `.env.example` to `.env.local` and fill in your project URL and
-   publishable key (Settings → API).
+The production database is the **Win Travel** project
+(`rviyruqoztvsbjakehhc`, us-east-1) on the Winspire Supabase org. Both
+migrations in `supabase/migrations/` are applied and `supabase/seed.sql` has
+been run (12 listings, 11 house vendors).
+
+Point the app at it via `.env.local` (and the same vars in Vercel):
+
+```bash
+NEXT_PUBLIC_SUPABASE_URL=https://rviyruqoztvsbjakehhc.supabase.co
+NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=sb_publishable_MMHTAyi25UzDJEUV9uSEyQ_Wmo9Np_L
+```
+
+The publishable key is safe to expose to browsers — row-level security
+governs all access; rotate it anytime in Settings → API.
+
+To stand up a fresh database instead: create a project, apply the files in
+`supabase/migrations/` in order, then run `supabase/seed.sql`.
 
 What the migration sets up:
 
