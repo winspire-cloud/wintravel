@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid slice">
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#f7e8d8"/><stop offset="1" stop-color="#e8b88f"/>
+  </linearGradient>
+  <filter id="grain">
+    <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" stitchTiles="stitch"/>
+    <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+  </filter></defs>
+<rect width="1200" height="900" fill="url(#sky)"/>
+      <circle cx="760" cy="260" r="90" fill="#e89a5f" opacity="1"/>
+      <path d="M0,900 L0,390.5909479316324 L240,208.7 L480,438.1 L720,398.4 L960,290.0 L1200,251.0 L1200,900 Z" fill="#c97e57"/>
+      <path d="M0,900 L0,639.8484469950199 L300,421.3 L600,581.6 L900,444.4 L1200,547.0 L1200,900 Z" fill="#9d5538"/>
+      <path d="M0,900 L0,660.1 L100,665.5 L200,666.0 L300,668.7 L400,665.5 L500,658.9 L600,656.0 L700,653.3 L800,653.4 L900,655.0 L1000,661.2 L1100,664.7 L1200,669.1 L1200,900 Z" fill="#4f8d96"/>
+<path d="M0,900 L0,753.0 L100,747.8 L200,742.0 L300,734.3 L400,728.6 L500,726.9 L600,730.0 L700,738.7 L800,744.3 L900,750.1 L1000,749.8 L1100,748.7 L1200,741.0 L1200,900 Z" fill="#34707d"/>
+<path d="M0,900 L0,814.6 L100,808.0 L200,802.7 L300,806.4 L400,816.4 L500,823.8 L600,829.8 L700,836.5 L800,836.8 L900,823.5 L1000,819.2 L1100,809.8 L1200,805.9 L1200,900 Z" fill="#235463"/>
+      <g fill="#f4ead8">
+        <rect x="200" y="470" width="34" height="26"/><rect x="252" y="446" width="30" height="24"/>
+        <rect x="230" y="500" width="40" height="28"/><rect x="290" y="478" width="28" height="22"/>
+      </g>
+<rect width="1200" height="900" filter="url(#grain)"/>
+</svg>

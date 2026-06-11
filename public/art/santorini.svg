@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid slice">
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#f3ede1"/><stop offset="1" stop-color="#b9cfdd"/>
+  </linearGradient>
+  <filter id="grain">
+    <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" stitchTiles="stitch"/>
+    <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+  </filter></defs>
+<rect width="1200" height="900" fill="url(#sky)"/>
+      <circle cx="300" cy="230" r="75" fill="#f0d9a8" opacity="1"/>
+      <path d="M0,900 L0,506.7637900589034 L200,341.7 L400,397.2 L600,260.8 L800,469.2 L1000,275.8 L1200,416.4 L1200,900 Z" fill="#dfe6ea"/>
+      <path d="M0,900 L0,526.854679887183 L240,437.5 L480,542.1 L720,492.3 L960,526.2 L1200,480.1 L1200,900 Z" fill="#a9bfcd"/>
+      <path d="M0,900 L0,639.7 L100,644.7 L200,647.7 L300,647.5 L400,644.2 L500,641.4 L600,634.0 L700,631.3 L800,632.7 L900,636.3 L1000,639.2 L1100,644.4 L1200,647.3 L1200,900 Z" fill="#5e8fae"/>
+<path d="M0,900 L0,739.2 L100,735.8 L200,729.9 L300,722.9 L400,717.5 L500,713.1 L600,719.1 L700,724.5 L800,730.9 L900,737.8 L1000,740.5 L1100,736.0 L1200,727.4 L1200,900 Z" fill="#3f6f93"/>
+<path d="M0,900 L0,810.4 L100,802.8 L200,799.8 L300,799.8 L400,804.4 L500,815.7 L600,828.5 L700,830.2 L800,827.5 L900,821.7 L1000,806.8 L1100,803.7 L1200,798.9 L1200,900 Z" fill="#2c5478"/>
+      <circle cx="430" cy="455" r="34" fill="#3f6f93"/>
+      <rect x="396" y="455" width="68" height="42" fill="#f4f1ea"/>
+<rect width="1200" height="900" filter="url(#grain)"/>
+</svg>

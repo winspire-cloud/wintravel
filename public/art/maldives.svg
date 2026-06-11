@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid slice">
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#f6e8d4"/><stop offset="1" stop-color="#bfe3dd"/>
+  </linearGradient>
+  <filter id="grain">
+    <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" stitchTiles="stitch"/>
+    <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+  </filter></defs>
+<rect width="1200" height="900" fill="url(#sky)"/>
+      <circle cx="880" cy="270" r="95" fill="#eec98f" opacity="1"/>
+      <path d="M0,900 L0,431.4 L100,434.6 L200,438.8 L300,438.4 L400,433.4 L500,429.8 L600,426.7 L700,421.2 L800,422.2 L900,426.0 L1000,429.0 L1100,434.9 L1200,436.8 L1200,900 Z" fill="#8fd0c6"/>
+<path d="M0,900 L0,558.6 L100,557.1 L200,547.7 L300,540.2 L400,539.0 L500,535.8 L600,540.5 L700,545.3 L800,551.6 L900,559.5 L1000,557.1 L1100,554.9 L1200,548.2 L1200,900 Z" fill="#5db4ad"/>
+<path d="M0,900 L0,658.1 L100,649.7 L200,647.7 L300,649.1 L400,657.3 L500,666.7 L600,679.9 L700,681.9 L800,677.1 L900,671.4 L1000,662.8 L1100,650.4 L1200,646.5 L1200,900 Z" fill="#2f8f8c"/>
+<path d="M0,900 L0,767.6 L100,771.8 L200,786.3 L300,795.1 L400,803.5 L500,803.8 L600,793.3 L700,782.6 L800,772.1 L900,766.6 L1000,765.8 L1100,772.8 L1200,781.5 L1200,900 Z" fill="#1f6f70"/>
+      <path d="M208,470 C214,410 222,375 224,342" stroke="#1b4f4d" stroke-width="13" stroke-linecap="round" fill="none"/><path d="M220,340 Q153.5,288 125,314" stroke="#1b4f4d" stroke-width="10" stroke-linecap="round" fill="none"/><path d="M220,340 Q174.5,255 155,281" stroke="#1b4f4d" stroke-width="10" stroke-linecap="round" fill="none"/><path d="M220,340 Q209.5,240 205,266" stroke="#1b4f4d" stroke-width="10" stroke-linecap="round" fill="none"/><path d="M220,340 Q248,248 260,274" stroke="#1b4f4d" stroke-width="10" stroke-linecap="round" fill="none"/><path d="M220,340 Q279.5,280 305,306" stroke="#1b4f4d" stroke-width="10" stroke-linecap="round" fill="none"/>
+<rect width="1200" height="900" filter="url(#grain)"/>
+</svg>

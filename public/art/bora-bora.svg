@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid slice">
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#f0e7d3"/><stop offset="1" stop-color="#a7d6cd"/>
+  </linearGradient>
+  <filter id="grain">
+    <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" stitchTiles="stitch"/>
+    <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+  </filter></defs>
+<rect width="1200" height="900" fill="url(#sky)"/>
+      <circle cx="280" cy="240" r="80" fill="#f1cd92" opacity="1"/>
+      <polygon points="500,480 700,210 800,330 880,290 1010,480" fill="#3f7268"/>
+      <path d="M0,900 L0,480.2 L100,484.0 L200,486.7 L300,488.7 L400,483.9 L500,480.4 L600,475.7 L700,473.6 L800,472.4 L900,475.9 L1000,479.4 L1100,483.4 L1200,487.3 L1200,900 Z" fill="#7fcabc"/>
+<path d="M0,900 L0,596.8 L100,594.8 L200,587.9 L300,578.6 L400,575.1 L500,570.7 L600,575.3 L700,584.7 L800,588.0 L900,594.1 L1000,598.4 L1100,592.9 L1200,586.1 L1200,900 Z" fill="#4aa99e"/>
+<path d="M0,900 L0,682.9 L100,679.3 L200,672.0 L300,678.8 L400,684.8 L500,693.9 L600,701.4 L700,705.9 L800,702.4 L900,694.5 L1000,686.5 L1100,679.9 L1200,672.1 L1200,900 Z" fill="#2a8480"/>
+<path d="M0,900 L0,772.6 L100,783.2 L200,793.2 L300,804.5 L400,815.2 L500,810.6 L600,809.8 L700,794.0 L800,785.8 L900,779.4 L1000,779.3 L1100,787.3 L1200,797.5 L1200,900 Z" fill="#1c6466"/>
+      <path d="M988,520 C994,460 1002,425 1004,392" stroke="#174f48" stroke-width="13" stroke-linecap="round" fill="none"/><path d="M1000,390 Q933.5,338 905,364" stroke="#174f48" stroke-width="10" stroke-linecap="round" fill="none"/><path d="M1000,390 Q954.5,305 935,331" stroke="#174f48" stroke-width="10" stroke-linecap="round" fill="none"/><path d="M1000,390 Q989.5,290 985,316" stroke="#174f48" stroke-width="10" stroke-linecap="round" fill="none"/><path d="M1000,390 Q1028,298 1040,324" stroke="#174f48" stroke-width="10" stroke-linecap="round" fill="none"/><path d="M1000,390 Q1059.5,330 1085,356" stroke="#174f48" stroke-width="10" stroke-linecap="round" fill="none"/>
+<rect width="1200" height="900" filter="url(#grain)"/>
+</svg>
